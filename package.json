@@ -1,0 +1,31 @@
+{
+  "name": "componentlib",
+  "version": "1.0.0",
+  "description": "component library TS react",
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types.d.ts",
+
+  "author": "MK",
+  "license": "MIT",
+
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.46",
+    "@types/styled-components": "^5.1.34",
+    "react": "^18.2.0",
+    "rollup": "^4.9.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "styled-components": "^6.1.6",
+    "typescript": "^5.3.3"
+  }
+}
