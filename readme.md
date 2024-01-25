@@ -8,7 +8,7 @@ It's also a fully functional react component library
 You can install this demo UI library using npm:
 
 ```
-npm install @mk/componentlib
+npm install @utshadow/componentlib
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ To use this UI library in your project, import the components you need from the 
 
 ```jsx
 import React from "react";
-import { Input, Button } from "@mk/componentlib";
+import { Input, Button } from "@utshadow/componentlib";
 
 function App() {
   return (
