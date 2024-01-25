@@ -1,5 +1,5 @@
 {
-  "name": "componentlib",
+  "name": "@MK/componentlib",
   "version": "1.0.0",
   "description": "component library TS react",
   "scripts": {
